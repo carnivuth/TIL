@@ -2,6 +2,7 @@
 id: CREATE_CI_JENKINS
 aliases: []
 tags: []
+index: 6
 ---
 
 # CONFIGURE JENKINS CI WITH GITHUB REPOS
@@ -63,3 +64,6 @@ pipeline {
 ```
 
 - Configure Jenkins to add GitHub hooks automatically to the repo
+
+
+[PREVIOUS](CREATE_CLOUD_INIT_TEMPLATE.md)

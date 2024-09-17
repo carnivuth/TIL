@@ -2,6 +2,7 @@
 id: CREATE_CLOUD_INIT_TEMPLATE
 aliases: []
 tags: []
+index: 5
 ---
 
 # CREATE CLOUD INIT TEMPLATE
@@ -38,3 +39,6 @@ qm set 9000 --agent enabled=1
 ```bash
 qm template 9000
 ```
+
+
+[PREVIOUS](CREATE_CRON_JOB.md) [NEXT](CREATE_CI_JENKINS.md)

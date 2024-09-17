@@ -1,3 +1,9 @@
+---
+id: INFRASTRUCTURE
+aliases: []
+tags: []
+---
+
 # POKELAB
 
 Personal proxmox cluster for self-hosted services, application deployment environment and playhouse
@@ -29,17 +35,17 @@ F[arcible\n ansible provisioner and jenkins host]
 G[wirenine\n wireguard host]
 H[hydrame\n game server for some self hosted gaming usecases]
 I[dittup\n pbs host for backups]
-J[grotun\n grocy server for home management] 
+J[grotun\n grocy server for home management]
 A --> B & C & D & E & F & G & H & I & J
 end
 ```
 
 
-## NETWORKING 
+## NETWORKING
 
 All machines are under the home LAN with static IP assigned, cause the router does not allow to add routes for new subnets :(.
 
-some services are exposed to the internet via HTTPS reverse proxy with nginx 
+some services are exposed to the internet via HTTPS reverse proxy with nginx
 
 ```mermaid
 flowchart LR
@@ -72,7 +78,7 @@ The router has an associated DDNS record `pokelab.ddns.net` and 2 aliases `arcib
 Containers and virtual machines's rootfs disk is located in the `local-lvm` volume on the nvme disk and the ones that mount an external volume mounts it under `/mnt/storage`. The external volumes are located on the `main` lvm volume, under one of the hard drives, all the volumes are backuped in the other hard drive from pbs
 
 ```mermaid
-flowchart 
+flowchart
 	subgraph data disks
 		direction TB
 		subgraph nvme
@@ -93,9 +99,9 @@ flowchart
 	A   -- mounted on /mnt/storage --> B
 ```
 
-## BACKUPS 
+## BACKUPS
 
-Backups are made with the use of PBS in snapshot mode, every night at 21:00 for all containers and virtual machines, one of the 2 hard drives is dedicated to this purpose, only the last 5 backups are maintained 
+Backups are made with the use of PBS in snapshot mode, every night at 21:00 for all containers and virtual machines, one of the 2 hard drives is dedicated to this purpose, only the last 5 backups are maintained
 
 for big containers stop mode is used instead, see [this](https://pve.proxmox.com/wiki/Backup_and_Restore#_backup_modes) for reference
 
@@ -119,3 +125,6 @@ for specific provisioning procedures refer to [the guide](PROVISIONING_PROCEDURE
 Applications inside containers are located under `/usr/local`, application data are linked in `/mnt/storage` which is mounted inside another more large volume
 
 application that need to run as daemons uses systemd units with custom user and limited read write permissions
+
+
+ [NEXT](CREATE_CI_GITHUB_ACTIONS.md)

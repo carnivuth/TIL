@@ -2,6 +2,7 @@
 id: CREATE_CRON_JOB
 aliases: []
 tags: []
+index: 4
 ---
 
 # CREATE CRON JOB
@@ -40,3 +41,6 @@ if [[ "$(cat "$<SCRIPT_NAME>_RESULT_FILE")" == "0" ]]; then
     curl "$HEALTHCHECK" >> "$LOG_FILE" 2>&1
 fi
 ```
+
+
+[PREVIOUS](PROXMOX_HOOKS.md) [NEXT](CREATE_CLOUD_INIT_TEMPLATE.md)

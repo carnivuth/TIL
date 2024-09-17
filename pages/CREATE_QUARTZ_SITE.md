@@ -2,6 +2,7 @@
 id: CREATE_QUARTZ_SITE
 aliases: []
 tags: []
+index: 2
 ---
 
 # CREATE QUARTZ SITE FROM OBSIDIAN VAULT
@@ -237,3 +238,6 @@ jobs:
 - enable github pages push from github action
 
 ![](Pasted%20image%2020240917001709.png)
+
+
+[PREVIOUS](CREATE_CI_GITHUB_ACTIONS.md) [NEXT](PROXMOX_HOOKS.md)

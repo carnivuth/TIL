@@ -1,3 +1,10 @@
+---
+id: PROXMOX_HOOKS
+aliases: []
+tags: []
+index: 3
+---
+
 # PROXMOX HOOKS SCRIPT
 
 Scripts are runned in multiple moments of the ct/vm lifecicle, they can be of different types (*e.g. bash perl python*) they run inside the proxmox host.
@@ -33,3 +40,6 @@ fi
 if [[ "$phase" == 'post-start' ]]; then
 fi
 ```
+
+
+[PREVIOUS](CREATE_QUARTZ_SITE.md) [NEXT](CREATE_CRON_JOB.md)
