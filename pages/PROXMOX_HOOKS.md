@@ -4,7 +4,6 @@ aliases: []
 tags: []
 index: 3
 ---
-
 # PROXMOX HOOKS SCRIPT
 
 Scripts are runned in multiple moments of the ct/vm lifecicle, they can be of different types (*e.g. bash perl python*) they run inside the proxmox host.
@@ -25,8 +24,7 @@ DEPS=""
 LOG_FILE="/var/log/filename.log"
 
 vmid=$1
-shift
-vmid=$1
+phase=$2
 
 if [[ "$phase" == 'pre-start' ]]; then
 fi
