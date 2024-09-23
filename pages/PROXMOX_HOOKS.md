@@ -13,7 +13,7 @@ they are called as `scriptname <vmid> <phase>` where
 - vmid is the id of the container/vm
 - phase is a string that refers the lifecicle hook, can have 4 values: `pre-start post-start pre-stop post-stop`
 
-they must reside under `/var/lib/vz/snippets/`
+they must reside under `/var/lib/vz/snippets/` and be executable, shbang is also needed to run with the correct interpreter
 
 template for a bash hook:
 
@@ -37,6 +37,15 @@ fi
 
 if [[ "$phase" == 'post-start' ]]; then
 fi
+```
+
+then the hookscript can be added to a ct or a vm like this
+
+```bash
+# for containers
+pct set 100 --hookscript local:snippets/script.sh
+# for vms
+qm set 100 --hookscript local:snippets/script.sh
 ```
 
 
