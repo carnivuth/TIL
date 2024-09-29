@@ -16,7 +16,7 @@ Host storagebox-address
     Port 23
 ```
 
-- setup sync script with remote 
+- setup sync script with remote (*for example `/usr/local/bin/sync_remote.sh`*)
 
 ```bash
 #!/bin/bash
@@ -34,4 +34,10 @@ else
         curl "$NTFY_ENDPOINT" -X POST  -d "BROKEN  sync from $HOSTNAME to $REMOTE of $datastore"
 fi
 done
+```
+
+- then configure cron to run the script as follows
+
+```bash
+0 10 * * * /usr/local/bin/sync_with_remote.sh >> /var/log/sync_with_remote.log 2>1
 ```
