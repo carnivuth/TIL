@@ -69,23 +69,23 @@
 
 ## OPERATORS
 
-| Symbol       | Code    |
-| ------------ | ------- |
-| $\times\\ $  | `\times`  |
-| $\div\\ $    | `\div`    |
-| $\pm\\ $     | `\pm`     |
-| $\mp\\ $     | `\mp`     |
-| $\cdot\\ $   | `\cdot`   |
-| $\star\\ $   | `\star`   |
-| $\ast\\ $    | `\ast`    |
-| $\oplus\\ $  | `\oplus`  |
-| $\circ\\ $   | `\circ`   |
-| $\bullet\\ $ | `\bullet` |
+| Symbol       | Code      |
+| ------------ | --------- |
+| $\times$  | `\times`  |
+| $\div$    | `\div`    |
+| $\pm$     | `\pm`     |
+| $\mp$     | `\mp`     |
+| $\cdot$   | `\cdot`   |
+| $\star$   | `\star`   |
+| $\ast$    | `\ast`    |
+| $\oplus$  | `\oplus`  |
+| $\circ$   | `\circ`   |
+| $\bullet$ | `\bullet` |
 
 ## SETS
 
-| Sol           | Code        |
-| ------------- | ----------- |
+| Sol           | Code          |
+| ------------- | ------------- |
 | $\cup$        | `\cup`        |
 | $\cap$        | `\cap`        |
 | $\setminus$   | `\setminus`   |
@@ -100,8 +100,8 @@
 
 ## ARROWS
 
-| Symbol            | Code            |
-| ----------------- | --------------- |
+| Symbol            | Code              |
+| ----------------- | ----------------- |
 | $\to$             | `\to`             |
 | $\rightarrow$     | `\rightarrow`     |
 | $\leftarrow$      | `\leftarrow`      |
@@ -112,8 +112,8 @@
 
 ## SPECIAL SYMBOLS
 
-| Symbol     | Code     |
-| ---------- | -------- |
+| Symbol     | Code       |
+| ---------- | ---------- |
 | $\infty$   | `\infty`   |
 | $\nabla$   | `\nabla`   |
 | $\partial$ | `\partial` |
@@ -125,8 +125,8 @@
 
 ## TRIGONOMETRY
 
-| Symbol      | Code      |
-| ----------- | --------- |
+| Symbol      | Code        |
+| ----------- | ----------- |
 | $\sin x$    | `\sin x`    |
 | $\cos x$    | `\cos x`    |
 | $\tan x$    | `\tan x`    |
@@ -226,7 +226,7 @@
 | $\mathcal{calligraphic letters}$                | `\mathcal{calligraphic letters}`                |
 | $\mathscr{script letters}$                      | `\mathscr{script letters}`                      |
 | $\mathfrak{Fraktur (old German style) letters}$ | `\mathfrak{Fraktur (old German style) letters}` |
-|                                                 |                                                 |
+
 ## SPACES
 
 | Symbol   | Code     |
