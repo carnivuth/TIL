@@ -1,7 +1,7 @@
 ---
 id: CREATE_CRON_JOB
 aliases: []
-tags: []
+tags: [CRON]
 index: 1
 ---
 
@@ -14,8 +14,8 @@ here a quick reference for creating a cronjob for industrial usage,
 Common best practices to improve sysadmin operations:
 
 - create script under `/usr/local/bin`
-- log under `var/log`
-- creates temp files under `tmp`
+- log under `/var/log`
+- creates temp files under `/tmp`
 - use the script name for logs and files in the file system for quick grep command when debug is needed
 - specify dependencies in a deps variable such as `DEPS="curl git jq"`
 - curl [healthchecks.io](https://healthchecks.io) for monitoring (*optional*)
@@ -39,6 +39,12 @@ echo "0" > "$RESULT_FILE"
 if [[ "$(cat "$RESULT_FILE")" == "0" ]]; then
     curl "$HEALTHCHECK" >> "$LOG_FILE" 2>&1
 fi
+```
+
+it's also usefull to avoid mail notification from the cron daemon:
+
+```cron
+*/5 * * * * //usr/local/bin/some_script.sh > /dev/null 2>&1
 ```
 
  [NEXT](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md)
