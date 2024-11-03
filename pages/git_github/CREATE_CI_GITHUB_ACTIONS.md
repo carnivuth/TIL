@@ -2,7 +2,7 @@
 id: CREATE_CI_GITHUB_ACTIONS
 aliases: []
 tags: []
-index: 1
+index: 4
 ---
 
 # CREATE CI GITHUB ACTIONS
@@ -83,5 +83,4 @@ pr_to_main_branch
 
 - test with some commits in the main branch
 
-
- [NEXT](CREATE_QUARTZ_SITE.md)
+[PREVIOUS](pages/git_github/GIT_HOOKS.md) [NEXT](pages/git_github/CREATE_QUARTZ_SITE.md)

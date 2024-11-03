@@ -1,4 +1,12 @@
+---
+id: MATHJAX_CHEETSHEET
+aliases: []
+tags: []
+index: 9
+---
 # MATHJAX CHEETSHEET
+
+General mathjax quick reference
 
 ##  PARENTHESES
 
@@ -246,3 +254,5 @@
 | $\overleftrightarrow{xy}$ | `\overleftrightarrow{xy}` |
 | $\dot{x}$                 | `\dot{x}`                 |
 | $\ddot{x}$                | `\ddot{x}`                |
+
+[PREVIOUS](pages/proxmox/PROXMOX_HOOKS.md)

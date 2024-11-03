@@ -1,3 +1,10 @@
+---
+id: GIT_HOOKS
+aliases: []
+tags: []
+index: 3
+---
+
 # GIT HOOKS
 
 Git hooks are a special git feature that allow for script execution when some particular event is fired.
@@ -25,3 +32,5 @@ else
   echo "no $INCLUDED modified, nothing to do"
 fi
 ```
+
+[PREVIOUS](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md) [NEXT](pages/git_github/CREATE_CI_GITHUB_ACTIONS.md)

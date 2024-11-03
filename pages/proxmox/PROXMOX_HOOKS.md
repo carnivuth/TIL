@@ -2,7 +2,7 @@
 id: PROXMOX_HOOKS
 aliases: []
 tags: []
-index: 3
+index: 8
 ---
 # PROXMOX HOOKS SCRIPT
 
@@ -48,5 +48,4 @@ pct set 100 --hookscript local:snippets/script.sh
 qm set 100 --hookscript local:snippets/script.sh
 ```
 
-
-[PREVIOUS](CREATE_QUARTZ_SITE.md) [NEXT](CREATE_CRON_JOB.md)
+[PREVIOUS](pages/proxmox/CREATE_CLOUD_INIT_TEMPLATE.md) [NEXT](pages/utils/MATHJAX_CHEETSHEET.md)

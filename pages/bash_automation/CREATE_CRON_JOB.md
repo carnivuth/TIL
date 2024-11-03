@@ -2,7 +2,7 @@
 id: CREATE_CRON_JOB
 aliases: []
 tags: []
-index: 4
+index: 1
 ---
 
 # CREATE CRON JOB
@@ -42,5 +42,4 @@ if [[ "$(cat "$<SCRIPT_NAME>_RESULT_FILE")" == "0" ]]; then
 fi
 ```
 
-
-[PREVIOUS](PROXMOX_HOOKS.md) [NEXT](CREATE_CLOUD_INIT_TEMPLATE.md)
+ [NEXT](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md)

@@ -1,13 +1,19 @@
+---
+id:
+aliases: []
+tags: []
+index: 2
+---
 # SETUP BACKUP WITH HETZNER STORAGEBOX
 
 Hetzner is a cloud provider that offers various services, Paas and Saas and also cloud storage, in the form of storageboxes, in order to configure a backup for a new host
 
 - create a storagebox subaccount to limit the user privileges of the backupped guest only to it's own files
 
-- create `.ssh` directory 
+- create `.ssh` directory
 - create ssh keys for the storage box
 - copy pubkey to remote
-- setup ssh config 
+- setup ssh config
 
 ```bash
 Host storagebox-address
@@ -41,3 +47,5 @@ done
 ```bash
 0 10 * * * /usr/local/bin/sync_with_remote.sh >> /var/log/sync_with_remote.log 2>1
 ```
+
+[PREVIOUS](pages/bash_automation/CREATE_CRON_JOB.md) [NEXT](pages/git_github/GIT_HOOKS.md)

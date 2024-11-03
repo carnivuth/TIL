@@ -2,7 +2,7 @@
 id: CREATE_QUARTZ_SITE
 aliases: []
 tags: []
-index: 2
+index: 5
 ---
 
 # CREATE QUARTZ SITE FROM OBSIDIAN VAULT
@@ -239,5 +239,4 @@ jobs:
 
 ![](Pasted%20image%2020240917001709.png)
 
-
-[PREVIOUS](CREATE_CI_GITHUB_ACTIONS.md) [NEXT](PROXMOX_HOOKS.md)
+[PREVIOUS](pages/git_github/CREATE_CI_GITHUB_ACTIONS.md) [NEXT](pages/git_github/CREATE_CI_JENKINS.md)
