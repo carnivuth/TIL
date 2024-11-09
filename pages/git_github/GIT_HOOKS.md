@@ -9,7 +9,7 @@ index: 3
 
 Git hooks are a special git feature that allow for script execution when some particular event is fired.
 
-To create a git hook create a script with the name of the event that should fired the script inside the `.git/hooks` directory, some examples are already put there by git.
+To create a git hook create a script with the name of the event that should fired the script inside the `.git/hooks` directory, script are executed **from the root dir of the git repository**, some examples are already put there by git.
 
 ```bash
 ls .git/hooks/
