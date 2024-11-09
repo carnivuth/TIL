@@ -33,4 +33,27 @@ else
 fi
 ```
 
+## TRIGGER ACTIONS ON PULL 
+
+The best hook for triggering actions on pull is the `post-merge` hook, this can be useful when deploying git repos to production (*suitable only for small projects*).
+
+For example in the [labcraft](https://github.com/carnivuth/labcraft) project there is a hook for running ansible after playbooks updates
+
+```bash
+#!/bin/bash
+# Redirect output to stderr.
+exec 1>&2
+# check if last commit contains something that has notes in the name
+INCLUDED=playbooks
+LOG_DIR="/var/log/ansible"; if [[ ! -d "$LOG_DIR" ]];then mkdir -p "$LOG_DIR"; fi
+
+if git diff --name-only HEAD HEAD~1 | grep "$INCLUDED"; then
+        # do something
+        source env/bin/activate
+        ansible-playbook -i inventory/prod.proxmox.yaml -e 'vars_file=prod' playbooks/common.yml > "$LOG_DIR/common.log"
+else
+        echo "no $INCLUDED modified, nothing to do"
+fi
+```
+
 [PREVIOUS](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md) [NEXT](pages/git_github/CREATE_CI_GITHUB_ACTIONS.md)
