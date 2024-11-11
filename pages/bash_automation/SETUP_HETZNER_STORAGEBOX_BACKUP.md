@@ -1,8 +1,8 @@
 ---
-id:
-aliases: []
-tags: []
-index: 2
+id: 
+aliases: 
+tags: 
+index: 3
 ---
 # SETUP BACKUP WITH HETZNER STORAGEBOX
 
@@ -48,4 +48,4 @@ done
 0 10 * * * /usr/local/bin/sync_with_remote.sh >> /var/log/sync_with_remote.log 2>1
 ```
 
-[PREVIOUS](pages/bash_automation/CREATE_CRON_JOB.md) [NEXT](pages/git_github/GIT_HOOKS.md)
+[PREVIOUS](pages/bash_automation/FIND.md) [NEXT](pages/git_github/GIT_HOOKS.md)

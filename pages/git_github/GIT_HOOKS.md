@@ -2,7 +2,7 @@
 id: GIT_HOOKS
 aliases: []
 tags: []
-index: 3
+index: 4
 ---
 
 # GIT HOOKS
@@ -33,7 +33,7 @@ else
 fi
 ```
 
-## TRIGGER ACTIONS ON PULL 
+## TRIGGER ACTIONS ON PULL
 
 The best hook for triggering actions on pull is the `post-merge` hook, this can be useful when deploying git repos to production (*suitable only for small projects*).
 

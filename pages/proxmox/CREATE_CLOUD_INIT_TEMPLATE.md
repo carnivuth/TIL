@@ -2,7 +2,7 @@
 id: CREATE_CLOUD_INIT_TEMPLATE
 aliases: []
 tags: []
-index: 7
+index: 8
 ---
 
 # CREATE CLOUD INIT TEMPLATE
