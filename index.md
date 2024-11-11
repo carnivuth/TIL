@@ -7,6 +7,7 @@ Personal documentation on everyday work,tools and random bullshit
 ### BASH AUTOMATION
 
 - [best practices for a cronjob](pages/bash_automation/CREATE_CRON_JOB.md)
+- [how to use `find`](pages/bash_automation/FIND.md)
 - [setup backup with hetzner storage box](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md)
 
 ### GIT AND GITHUB
