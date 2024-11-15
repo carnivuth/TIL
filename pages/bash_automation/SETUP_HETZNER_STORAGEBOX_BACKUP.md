@@ -10,9 +10,23 @@ Hetzner is a cloud provider that offers various services, Paas and Saas and also
 
 - create a storagebox subaccount to limit the user privileges of the backupped guest only to it's own files
 
-- create `.ssh` directory
+```bash
+ssh -l u425518  u425518.your-storagebox.de -p 23 mkdir -p <FOLDER>/.ssh
+```
+
 - create ssh keys for the storage box
+
+```bash
+ssh-keygen -f ~/.ssh/backup_key
+```
+
 - copy pubkey to remote
+
+```bash
+ssh -l u425518  u425518.your-storagebox.de -p 23 mkdir -p <FOLDER>/.ssh
+scp -P 23 ~/.ssh/backup_key.pub u425518@u425518.your-storagebox.de:<FOLDER>/.ssh/authorized_keys
+```
+
 - setup ssh config
 
 ```bash
