@@ -9,6 +9,9 @@ Personal documentation on everyday work,tools and random bullshit
 - [best practices for a cronjob](pages/bash_automation/CREATE_CRON_JOB.md)
 - [how to use `find`](pages/bash_automation/FIND.md)
 - [setup backup with hetzner storage box](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md)
+- [awk guide](pages/bash_automation/AWK.md)
+- [snmp query sample](pages/bash_automation/SNMP_V3_QUERY.md)
+- [btrfs filesystem](pages/bash_automation/BTRFS.md)
 
 ### GIT AND GITHUB
 
@@ -21,6 +24,12 @@ Personal documentation on everyday work,tools and random bullshit
 
 - [how to create a cloud init template for provisioning vms](pages/proxmox/CREATE_CLOUD_INIT_TEMPLATE.md)
 - [proxmox hooks guide](pages/proxmox/PROXMOX_HOOKS.md)
+
+### SETUP SYSTEM THE NERDY WAY
+
+- [configure arch linux](pages/setups/ARCH_SETUP.md)
+- [configure android backup device](pages/setups/ANDROID_SETUP.md)
+- [configure windows](pages/setups/WINDOWS_SETUP.md)
 
 ### GENERAL UTILS
 
