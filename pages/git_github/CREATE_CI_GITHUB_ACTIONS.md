@@ -4,10 +4,11 @@ aliases: []
 tags: []
 index: 5
 ---
+	
+# CREATE CI `GITHUB` ACTIONS
 
-# CREATE CI GITHUB ACTIONS
+`Github` offers a CI service called `github actions`, the service runs workflows defined for the repo in a dedicated server called workers, workflows are defined in yaml format under the folder `.github/workflows/`.
 
-Github offers a CI service called github actions, the service runs workflows defined for the repo in a dedicated server called workers, workflows are defined in yaml format under the folder `.github/workflows/`.
 each workflow must specify:
 
 - which event triggers the workflow (*eg. push/commit/merge*)
