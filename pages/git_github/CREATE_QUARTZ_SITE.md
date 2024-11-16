@@ -2,7 +2,7 @@
 id: CREATE_QUARTZ_SITE
 aliases: []
 tags: []
-index: 6
+index: 9
 ---
 
 # CREATE QUARTZ SITE FROM OBSIDIAN VAULT

@@ -2,7 +2,7 @@
 id: GIT_HOOKS
 aliases: []
 tags: []
-index: 4
+index: 7
 ---
 
 # GIT HOOKS
