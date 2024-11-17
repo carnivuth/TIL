@@ -24,6 +24,7 @@ Personal documentation on everyday work,tools and random bullshit
 
 - [how to create a cloud init template for provisioning vms](pages/proxmox/CREATE_CLOUD_INIT_TEMPLATE.md)
 - [proxmox hooks guide](pages/proxmox/PROXMOX_HOOKS.md)
+- [terraform loops](TERRAFORM_LOOPS.md.md)
 
 ### SETUP SYSTEM THE NERDY WAY
 
