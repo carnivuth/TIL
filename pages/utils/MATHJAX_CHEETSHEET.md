@@ -1,8 +1,8 @@
 ---
 id: MATHJAX_CHEETSHEET
-aliases: []
-tags: []
-index: 13
+aliases: 
+tags: 
+index: 14
 ---
 # MATHJAX CHEETSHEET
 
