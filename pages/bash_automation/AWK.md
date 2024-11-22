@@ -61,4 +61,12 @@ match regex element and put beckrefs in an array
     print arr[1]
 ```
 
+## ONELINERS
+
+- print all token except first one
+
+```bash
+awk '{$1=""; print $0}'
+```
+
 [PREVIOUS](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md) [NEXT](pages/bash_automation/SNMP_V3_QUERY.md)
