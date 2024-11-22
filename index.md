@@ -13,6 +13,7 @@ Personal documentation on everyday work,tools and random bullshit
 - [snmp query sample](pages/bash_automation/SNMP_V3_QUERY.md)
 - [btrfs filesystem](pages/bash_automation/BTRFS.md)
 - [configuring manpages](MAN_CONFIGURATION.md)
+- [configure pass as a password store](CONFIGURE_PASS.md)
 
 ### GIT AND GITHUB
 

@@ -44,4 +44,5 @@ fi
 ```
 
 Now man can be browsed with vim keybindings and for quick oneliners the `tldr` command can be used
-[PREVIOUS](pages/bash_automation/BTRFS.md) [NEXT](pages/git_github/GIT_HOOKS.md)
+
+[PREVIOUS](pages/bash_automation/BTRFS.md)

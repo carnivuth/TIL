@@ -2,7 +2,7 @@
 id: CREATE_CI_GITHUB_ACTIONS
 aliases: []
 tags: []
-index: 9
+index: 10
 ---
 
 # CREATE CI `GITHUB` ACTIONS
