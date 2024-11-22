@@ -2,7 +2,7 @@
 id: MATHJAX_CHEETSHEET
 aliases: 
 tags: 
-index: 14
+index: 15
 ---
 # MATHJAX CHEETSHEET
 
@@ -255,4 +255,4 @@ General mathjax quick reference
 | $\dot{x}$                 | `\dot{x}`                 |
 | $\ddot{x}$                | `\ddot{x}`                |
 
-[PREVIOUS](pages/proxmox/PROXMOX_HOOKS.md)
+[PREVIOUS](pages/proxmox/TERRAFORM_LOOPS.md.md) [NEXT](pages/setups/ARCH_SETUP.md)

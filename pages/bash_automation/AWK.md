@@ -60,3 +60,5 @@ match regex element and put beckrefs in an array
     match($0, /.* — (.*) ft\. .*/, arr)
     print arr[1]
 ```
+
+[PREVIOUS](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md) [NEXT](pages/bash_automation/SNMP_V3_QUERY.md)

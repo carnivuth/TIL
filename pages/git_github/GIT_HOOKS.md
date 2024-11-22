@@ -2,7 +2,7 @@
 id: GIT_HOOKS
 aliases: []
 tags: []
-index: 7
+index: 8
 ---
 
 # GIT HOOKS
@@ -56,4 +56,4 @@ else
 fi
 ```
 
-[PREVIOUS](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md) [NEXT](pages/git_github/CREATE_CI_GITHUB_ACTIONS.md)
+[PREVIOUS](pages/bash_automation/MAN_CONFIGURATION.md) [NEXT](pages/git_github/CREATE_CI_GITHUB_ACTIONS.md)

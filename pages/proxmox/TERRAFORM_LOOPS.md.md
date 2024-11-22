@@ -1,5 +1,5 @@
 ---
-index: 13
+index: 14
 ---
 # TERRAFORM LOOPS
 
@@ -32,3 +32,4 @@ resource "proxmox_lxc" "ct-test" {
 this will produce the following output on the proxmox host
 
 ![](Pasted%20image%2020241117151330.png)
+[PREVIOUS](pages/proxmox/PROXMOX_HOOKS.md) [NEXT](pages/utils/MATHJAX_CHEETSHEET.md)

@@ -1,5 +1,5 @@
 ---
-index: 15
+index: 16
 ---
 # ARCH LINUX PERSONAL SETUP
 
@@ -67,3 +67,4 @@ sed -i 's|command.*/command = "agretty --cmd /bin/Hyprland"/g' '/etc/greetd/conf
 ```bash
 gh auth login
 ```
+[PREVIOUS](pages/utils/MATHJAX_CHEETSHEET.md) [NEXT](pages/setups/ANDROID_SETUP.md)

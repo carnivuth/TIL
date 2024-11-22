@@ -1,5 +1,5 @@
 ---
-index: 17
+index: 18
 ---
 # FRESH WINDOWS INSTALL
 
@@ -31,3 +31,4 @@ echo '{"$schema":"https://aka.ms/winget-packages.schema.2.0.json","CreationDate"
 ' > programs.txt
 winget import -i programs.json
 ```
+[PREVIOUS](pages/setups/ANDROID_SETUP.md)

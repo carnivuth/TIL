@@ -1,3 +1,6 @@
+---
+index: 7
+---
 # CONFIGURING MANUALS 
 
 Linux ships with a lot of documentation in the form of man pages, that are too complex and time consuming to read for quick access to oneliners, too many times i have encountered myself with the problem of finding a pipe command to do a specific task and the man is not helpful in this cases, here my personal configuration to make man pages and command more pleasant to use:
@@ -41,3 +44,4 @@ fi
 ```
 
 Now man can be browsed with vim keybindings and for quick oneliners the `tldr` command can be used
+[PREVIOUS](pages/bash_automation/BTRFS.md) [NEXT](pages/git_github/GIT_HOOKS.md)

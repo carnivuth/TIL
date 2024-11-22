@@ -1,5 +1,5 @@
 ---
-index: 16
+index: 17
 ---
 # SETUP ANDROID THE NERDY WAY
 
@@ -29,3 +29,4 @@ cd toolbox
 ```
 
 And it "*should*" be working, i hope
+[PREVIOUS](pages/setups/ARCH_SETUP.md) [NEXT](pages/setups/WINDOWS_SETUP.md)

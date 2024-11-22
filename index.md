@@ -12,6 +12,7 @@ Personal documentation on everyday work,tools and random bullshit
 - [awk guide](pages/bash_automation/AWK.md)
 - [snmp query sample](pages/bash_automation/SNMP_V3_QUERY.md)
 - [btrfs filesystem](pages/bash_automation/BTRFS.md)
+- [configuring manpages](MAN_CONFIGURATION.md)
 
 ### GIT AND GITHUB
 
