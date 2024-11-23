@@ -1,5 +1,7 @@
 ---
 index: 2
+tags:
+  - ONELINERS
 ---
 
 # FIND COMMAND 
@@ -32,4 +34,15 @@ find dir -maxdepth <VALUE> criteria [action]
 find . -maxdepth 1 -type f  -exec rm -i {} \;
 ```
 
+- exclude elements by regex
+
+```bash
+find . -not -regex 'REGEX'
+```
+
+- filter by element name
+
+```bash
+find . -name 'REGEX'
+```
 [PREVIOUS](pages/bash_automation/CREATE_CRON_JOB.md) [NEXT](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md)

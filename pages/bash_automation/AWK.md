@@ -1,5 +1,7 @@
 ---
 index: 4
+tags:
+  - ONELINERS
 ---
 # AWK
 
