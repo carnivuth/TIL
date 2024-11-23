@@ -2,7 +2,7 @@
 id: MATHJAX_CHEETSHEET
 aliases: 
 tags: 
-index: 16
+index: 17
 ---
 # MATHJAX CHEETSHEET
 

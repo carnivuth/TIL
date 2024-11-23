@@ -1,5 +1,8 @@
 ---
-inde: "8"
+id: CONFIGURE_PASS
+aliases: []
+tags: []
+index: 8
 ---
 # CONFIGURE PASS FOR PASSWORD STORAGE
 
@@ -44,4 +47,5 @@ cd ~/.password-store
 gh repo create --source=. --private [repo-name]
 git push --set-upstream origin main
 ```
- [NEXT](pages/bash_automation/CREATE_CRON_JOB.md)
+
+[PREVIOUS](pages/bash_automation/MAN_CONFIGURATION.md) [NEXT](pages/bash_automation/DEBUG_NVIM_LSP_CONFIGS.md)

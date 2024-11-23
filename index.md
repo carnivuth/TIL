@@ -14,6 +14,7 @@ Personal documentation on everyday work,tools and random bullshit
 - [btrfs filesystem](pages/bash_automation/BTRFS.md)
 - [configuring manpages](MAN_CONFIGURATION.md)
 - [configure pass as a password store](CONFIGURE_PASS.md)
+- [debug neovim lsp configs](DEBUG_NVIM_LSP_CONFIGS.md#DEBUG%20NEOVIM%20LSP%20CONFIGS)
 
 ### GIT AND GITHUB
 

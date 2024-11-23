@@ -2,7 +2,7 @@
 id: GIT_HOOKS
 aliases: []
 tags: []
-index: 9
+index: 10
 ---
 
 # GIT HOOKS
@@ -56,4 +56,4 @@ else
 fi
 ```
 
- [NEXT](pages/git_github/CREATE_CI_GITHUB_ACTIONS.md)
+[PREVIOUS](pages/bash_automation/DEBUG_NVIM_LSP_CONFIGS.md) [NEXT](pages/git_github/CREATE_CI_GITHUB_ACTIONS.md)

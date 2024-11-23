@@ -2,7 +2,7 @@
 id: CREATE_CI_JENKINS
 aliases: []
 tags: []
-index: 12
+index: 13
 ---
 
 # CONFIGURE JENKINS CI WITH GITHUB REPOS
