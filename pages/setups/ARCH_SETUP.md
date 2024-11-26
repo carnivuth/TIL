@@ -69,4 +69,4 @@ sed -i 's|command.*/command = "agretty --cmd /bin/Hyprland"/g' '/etc/greetd/conf
 gh auth login
 ```
 
-[PREVIOUS](pages/utils/MATHJAX_CHEETSHEET.md) [NEXT](pages/setups/ANDROID_SETUP.md)
+[PREVIOUS](pages/utils/MATHJAX_CHEETSHEET.md) [NEXT](pages/setups/N3DS_SETUP.md)

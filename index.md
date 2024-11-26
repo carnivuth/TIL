@@ -1,3 +1,9 @@
+---
+id: index
+aliases: []
+tags: []
+---
+
 # TODAY I LEARNED
 
 Personal documentation on everyday work,tools and random bullshit
@@ -32,6 +38,7 @@ Personal documentation on everyday work,tools and random bullshit
 ### SETUP SYSTEM THE NERDY WAY
 
 - [configure arch linux](pages/setups/ARCH_SETUP.md)
+- [configure nintendo 3DS as a travel companion](pages/setups/N3DS_SETUP.md)
 - [configure android backup device](pages/setups/ANDROID_SETUP.md)
 - [configure windows](pages/setups/WINDOWS_SETUP.md)
 

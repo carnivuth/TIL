@@ -45,4 +45,5 @@ find . -not -regex 'REGEX'
 ```bash
 find . -name 'REGEX'
 ```
+
 [PREVIOUS](pages/bash_automation/CREATE_CRON_JOB.md) [NEXT](pages/bash_automation/SETUP_HETZNER_STORAGEBOX_BACKUP.md)
