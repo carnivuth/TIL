@@ -66,6 +66,7 @@ if nc -z -w1 "$SERVER" "$PORT"; then
     echo "FTP is up."
     ftp -n -p "$SERVER" "$PORT" <<EOF
     binary
+    prompt
     lcd "$NDS_DEST"
     cd roms/nds/saves
     mget *
