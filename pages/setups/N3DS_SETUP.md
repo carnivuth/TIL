@@ -15,7 +15,10 @@ in my daily routine there are often dead moments, mainly travels with pubblic tr
 
 ![3ds.png](assets/imgs/3ds.png)
 
+
 ## STEPS
+
+> the steps are also documented in [my personal homelab project](https://github.com/carnivuth/labcraft/blob/main/playbooks/configure_3ds_backup.yml)
 
 - follow the ultimate guide to [mod 3ds](https://3ds.hacks.guide/)
 
