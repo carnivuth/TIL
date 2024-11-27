@@ -41,6 +41,7 @@ Personal documentation on everyday work,tools and random bullshit
 - [configure nintendo 3DS as a travel companion](pages/setups/N3DS_SETUP.md)
 - [configure android backup device](pages/setups/ANDROID_SETUP.md)
 - [configure windows](pages/setups/WINDOWS_SETUP.md)
+- [migrate homelab to cloudflare dns](CLOUDFLARE_DNS_MIGRATION.md)
 
 ### GENERAL UTILS
 
