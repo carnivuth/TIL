@@ -61,25 +61,29 @@ apt install ftp
 
 ```bash
 #!/bin/bash
-PORT=5000
-SERVER=192.168.1.28
-NDS_DEST=/var/lib/nds_saves; if [[ ! -d "$NDS_DEST" ]]; then mkdir -p "$NDS_DEST"; fi
-GBA_DEST=/var/lib/gba_saves; if [[ ! -d "$GBA_DEST" ]]; then mkdir -p "$GBA_DEST"; fi
-if nc -z -w1 "$SERVER" "$PORT"; then
-    echo "FTP is up."
-    ftp -n -p "$SERVER" "$PORT" <<EOF
-    binary
-    prompt
-    lcd "$NDS_DEST"
-    cd roms/nds/saves
-    mget *
-    lcd "$GBA_DEST"
-    cd roms/gba/saves
-    mget *
+# server parameters
+PORT=""
+ADDRESS=""
+
+# directories
+NDS_DEST=/mnt/datastore/nds_saves; if [[ ! -d "$NDS_DEST" ]]; then mkdir -p "$NDS_DEST"; fi
+GBA_DEST=/mnt/datastore/gba_saves; if [[ ! -d "$GBA_DEST" ]]; then mkdir -p "$GBA_DEST"; fi
+
+if nc -z -w1 "$ADDRESS" "$PORT"; then
+  echo "server is up, connecting for backup"
+  ftp -n -p "$ADDRESS" "$PORT" <<EOF
+        binary
+        prompt
+        lcd "$NDS_DEST"
+        cd roms/nds/saves
+        mget *
+        lcd "$GBA_DEST"
+        cd roms/gba/saves
+        mget *
 EOF
-    echo DONE
+echo DONE
 else
-    echo "FTP is down. Will try again."
+  echo "3ds is not listening for ftp connections"
 fi
 ```
 
