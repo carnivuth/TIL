@@ -13,7 +13,7 @@ My personal ultimate guide to setup a bullet proof nintendo 3ds emulator machine
 
 in my daily routine there are often dead moments, mainly travels with pubblic transport (work,university) so i was wandering if i can bring back to life my old 3ds and make it the perfect companion to kill boredom
 
-![3ds.png](assets/imgs/3ds.png)
+![3ds.png](assets/3ds.jpg)
 
 
 ## STEPS
