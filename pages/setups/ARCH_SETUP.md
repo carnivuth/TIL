@@ -1,4 +1,7 @@
 ---
+id: ARCH_SETUP
+aliases: []
+tags: []
 index: 18
 ---
 # ARCH LINUX PERSONAL SETUP
@@ -60,7 +63,13 @@ archinstall --config user_configuration.json
 
 ```bash
 pacman -S sed
-sed -i 's|command.*/command = "agretty --cmd /bin/Hyprland"/g' '/etc/greetd/config.toml'
+sed -i 's|command.*/command = "agretty --cmd /bin/bash"/g' '/etc/greetd/config.toml'
+```
+
+- configure `sudo`
+
+```bash
+echo "$USER ALL=(ALL:ALL) NOPASSWD:/bin/pacman" > "/etc/sudoers.d/$USER"
 ```
 
 - authenticate to `github`
@@ -69,4 +78,3 @@ sed -i 's|command.*/command = "agretty --cmd /bin/Hyprland"/g' '/etc/greetd/conf
 gh auth login
 ```
 
-[PREVIOUS](pages/utils/MATHJAX_CHEETSHEET.md) [NEXT](pages/setups/N3DS_SETUP.md)
